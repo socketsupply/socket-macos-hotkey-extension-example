@@ -85,53 +85,53 @@ class HotKeyCodeMap {
       keys.insert_or_assign(".", kVK_ANSI_Period);
       keys.insert_or_assign("`", kVK_ANSI_Grave);
 
-			keys.insert_or_assign("return", kVK_Return);
-			keys.insert_or_assign("enter", kVK_Return);
+      keys.insert_or_assign("return", kVK_Return);
+      keys.insert_or_assign("enter", kVK_Return);
       keys.insert_or_assign("tab", kVK_Tab);
-			keys.insert_or_assign("space", kVK_Space);
-			keys.insert_or_assign("delete", kVK_Delete);
-			keys.insert_or_assign("escape", kVK_Escape);
-			keys.insert_or_assign("shift", kVK_Shift);
-			keys.insert_or_assign("caps lock", kVK_CapsLock);
-			keys.insert_or_assign("right shift", kVK_RightShift);
-			keys.insert_or_assign("right option", kVK_RightOption);
-			keys.insert_or_assign("right opt", kVK_RightOption);
-			keys.insert_or_assign("right alt", kVK_RightOption);
-			keys.insert_or_assign("right control", kVK_RightControl);
-			keys.insert_or_assign("right ctrl", kVK_RightControl);
-			keys.insert_or_assign("fn", kVK_Function);
-			keys.insert_or_assign("volume up", kVK_VolumeUp);
-			keys.insert_or_assign("volume down", kVK_VolumeDown);
-			keys.insert_or_assign("mute", kVK_Mute);
-			keys.insert_or_assign("f1", kVK_F1);
-			keys.insert_or_assign("f2", kVK_F2);
-			keys.insert_or_assign("f3", kVK_F4);
-			keys.insert_or_assign("f4", kVK_F3);
-			keys.insert_or_assign("f5", kVK_F5);
-			keys.insert_or_assign("f6", kVK_F6);
-			keys.insert_or_assign("f7", kVK_F7);
-			keys.insert_or_assign("f8", kVK_F8);
-			keys.insert_or_assign("f9", kVK_F9);
-			keys.insert_or_assign("f10", kVK_F10);
-			keys.insert_or_assign("f11", kVK_F11);
-			keys.insert_or_assign("f12", kVK_F12);
-			keys.insert_or_assign("f13", kVK_F13);
-			keys.insert_or_assign("f14", kVK_F14);
-			keys.insert_or_assign("f15", kVK_F15);
-			keys.insert_or_assign("f16", kVK_F16);
-			keys.insert_or_assign("f17", kVK_F17);
-			keys.insert_or_assign("f18", kVK_F18);
-			keys.insert_or_assign("f18", kVK_F19);
-			keys.insert_or_assign("f20", kVK_F20);
-			keys.insert_or_assign("elp", kVK_Help);
-			keys.insert_or_assign("home", kVK_Home);
-			keys.insert_or_assign("end", kVK_End);
-			keys.insert_or_assign("page up", kVK_PageUp);
-			keys.insert_or_assign("page down", kVK_PageDown);
-			keys.insert_or_assign("up", kVK_UpArrow);
-			keys.insert_or_assign("down", kVK_DownArrow);
-			keys.insert_or_assign("left", kVK_LeftArrow);
-			keys.insert_or_assign("right", kVK_RightArrow);
+      keys.insert_or_assign("space", kVK_Space);
+      keys.insert_or_assign("delete", kVK_Delete);
+      keys.insert_or_assign("escape", kVK_Escape);
+      keys.insert_or_assign("shift", kVK_Shift);
+      keys.insert_or_assign("caps lock", kVK_CapsLock);
+      keys.insert_or_assign("right shift", kVK_RightShift);
+      keys.insert_or_assign("right option", kVK_RightOption);
+      keys.insert_or_assign("right opt", kVK_RightOption);
+      keys.insert_or_assign("right alt", kVK_RightOption);
+      keys.insert_or_assign("right control", kVK_RightControl);
+      keys.insert_or_assign("right ctrl", kVK_RightControl);
+      keys.insert_or_assign("fn", kVK_Function);
+      keys.insert_or_assign("volume up", kVK_VolumeUp);
+      keys.insert_or_assign("volume down", kVK_VolumeDown);
+      keys.insert_or_assign("mute", kVK_Mute);
+      keys.insert_or_assign("f1", kVK_F1);
+      keys.insert_or_assign("f2", kVK_F2);
+      keys.insert_or_assign("f3", kVK_F4);
+      keys.insert_or_assign("f4", kVK_F3);
+      keys.insert_or_assign("f5", kVK_F5);
+      keys.insert_or_assign("f6", kVK_F6);
+      keys.insert_or_assign("f7", kVK_F7);
+      keys.insert_or_assign("f8", kVK_F8);
+      keys.insert_or_assign("f9", kVK_F9);
+      keys.insert_or_assign("f10", kVK_F10);
+      keys.insert_or_assign("f11", kVK_F11);
+      keys.insert_or_assign("f12", kVK_F12);
+      keys.insert_or_assign("f13", kVK_F13);
+      keys.insert_or_assign("f14", kVK_F14);
+      keys.insert_or_assign("f15", kVK_F15);
+      keys.insert_or_assign("f16", kVK_F16);
+      keys.insert_or_assign("f17", kVK_F17);
+      keys.insert_or_assign("f18", kVK_F18);
+      keys.insert_or_assign("f18", kVK_F19);
+      keys.insert_or_assign("f20", kVK_F20);
+      keys.insert_or_assign("elp", kVK_Help);
+      keys.insert_or_assign("home", kVK_Home);
+      keys.insert_or_assign("end", kVK_End);
+      keys.insert_or_assign("page up", kVK_PageUp);
+      keys.insert_or_assign("page down", kVK_PageDown);
+      keys.insert_or_assign("up", kVK_UpArrow);
+      keys.insert_or_assign("down", kVK_DownArrow);
+      keys.insert_or_assign("left", kVK_LeftArrow);
+      keys.insert_or_assign("right", kVK_RightArrow);
 
       modifiers.insert_or_assign("command", cmdKey);
       modifiers.insert_or_assign("super", cmdKey);
@@ -149,11 +149,11 @@ class HotKeyCodeMap {
     const Code get (std::string key) const {
       // normalize key to lower case
       std::transform(
-				key.begin(),
-				key.end(),
-				key.begin(),
-				[](auto ch) { return std::tolower(ch); }
-			);
+        key.begin(),
+        key.end(),
+        key.begin(),
+        [](auto ch) { return std::tolower(ch); }
+      );
 
 			if (keys.contains(key)) {
         return keys.at(key);
@@ -169,11 +169,11 @@ class HotKeyCodeMap {
     const bool isModifier (std::string key) const {
       // normalize key to lower case
       std::transform(
-				key.begin(),
-				key.end(),
-				key.begin(),
-				[](auto ch) { return std::tolower(ch); }
-			);
+        key.begin(),
+        key.end(),
+        key.begin(),
+        [](auto ch) { return std::tolower(ch); }
+      );
 
       return modifiers.contains(key);
     }
@@ -181,11 +181,11 @@ class HotKeyCodeMap {
     const bool isKey (std::string key) const {
       // normalize key to lower case
       std::transform(
-				key.begin(),
-				key.end(),
-				key.begin(),
-				[](auto ch) { return std::tolower(ch); }
-			);
+        key.begin(),
+        key.end(),
+        key.begin(),
+        [](auto ch) { return std::tolower(ch); }
+      );
 
       return keys.contains(key);
     }
@@ -207,11 +207,11 @@ class HotKeyBinding {
 
       // convert input expression to lower case
       std::transform(
-				input.begin(),
-				input.end(),
-				input.begin(),
-				[](auto ch) { return std::tolower(ch); }
-			);
+        input.begin(),
+        input.end(),
+        input.begin(),
+        [](auto ch) { return std::tolower(ch); }
+      );
 
       while ((end = input.find(delimiter, start)) != std::string::npos) {
         token = input.substr(start, end - start);
@@ -270,7 +270,7 @@ class HotKeyContext {
         return noErr;
       }
 
-			auto hotKeyContext = reinterpret_cast<HotKeyContext*>(userData);
+      auto hotKeyContext = reinterpret_cast<HotKeyContext*>(userData);
       auto context = hotKeyContext->context;
 
       // if the context was removed somehow, bail early
