@@ -1,0 +1,2 @@
+-std=c++2a
+-I/Users/werle/repos/socket/build/npm/darwin/packages/@socketsupply/socket-darwin-arm64/include
