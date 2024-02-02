@@ -16,16 +16,16 @@ std::string& trim (std::string& input) {
 	const auto filter = [](unsigned char c){ return !std::isspace(c); };
 
 	input.erase(
-		std::ranges::find_if(input | std::views::reverse, filter).base(),
-		input.end()
-	);
+    std::ranges::find_if(input | std::views::reverse, filter).base(),
+    input.end()
+  );
 
 	input.erase(
-		input.begin(),
-		std::ranges::find_if(input, filter)
-	);
+    input.begin(),
+    std::ranges::find_if(input, filter)
+  );
 
-	return input;
+  return input;
 }
 
 class HotKeyCodeMap {
@@ -155,11 +155,12 @@ class HotKeyCodeMap {
         [](auto ch) { return std::tolower(ch); }
       );
 
-			if (keys.contains(key)) {
+
+      if (keys.contains(key)) {
         return keys.at(key);
       }
 
-			if (modifiers.contains(key)) {
+      if (modifiers.contains(key)) {
         return modifiers.at(key);
       }
 
